@@ -90,7 +90,7 @@ const Navbar = () => {
       <div
         className={`${
           responsiveNav
-            ? "absolute right-2 md:right-4 w-96 lg:right-0 lg:top-1/3 bg-white border-2 border-blue-200 rounded-lg shadow-lg lg:border-0 lg:shadow-none lg:pl-0 overflow-x-hidden"
+            ? "absolute top-full right-2 md:right-4 w-96 lg:right-0 lg:top-1/3 bg-white border-2 border-blue-200 rounded-lg shadow-lg lg:border-0 lg:shadow-none lg:pl-0 overflow-x-hidden"
             : "hidden"
         } w-full lg:flex lg:items-center lg:w-auto`}
       >
