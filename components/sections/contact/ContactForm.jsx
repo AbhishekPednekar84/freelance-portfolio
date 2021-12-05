@@ -64,7 +64,7 @@ const loadIcon = (
 const ContactForm = () => {
   const form = useRef();
   return (
-    <div className="pb-32 bg-contact-background w-full pt-24">
+    <div className="pb-32 bg-contact-background w-full pt-12 md:pt-24">
       <h2 className="pb-12 lg:pb-20 text-center">
         <span className="pb-2 border-b-4 border-blue-500">Le</span>t's Get To
         Work
@@ -113,7 +113,7 @@ const ContactForm = () => {
           {(props) => (
             <Form ref={form}>
               <div className="flex justify-center">
-                <div className="flex flex-col justify-center items-center mx-5 font-gilroy w-full md:w-2/3 lg:w-1/3 p-10 rounded-xl shadow-xl bg-white">
+                <div className="flex flex-col justify-center items-center mx-5 font-gilroy w-full md:w-2/3 lg:w-1/3 px-3 py-10 lg:p-10 rounded-xl shadow-xl bg-white">
                   <div>
                     <label
                       htmlFor="name"
@@ -204,7 +204,7 @@ const ContactForm = () => {
                         {loadIcon}
                       </span>
                     ) : (
-                      "EMAIL ME"
+                      "GET IN TOUCH"
                     )}
                   </motion.button>
                 </div>

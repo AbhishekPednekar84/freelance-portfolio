@@ -22,21 +22,20 @@ const ProjectGrid = () => {
       controls.start((i) => ({
         opacity: 1,
         transition: {
-          duration: 0.3,
-          delay: 0.2 * i,
+          duration: 1,
+          delay: 0.5 * i,
         },
       }));
     }
   }, [inView, controls]);
 
   return (
-    <div className="grid place-items-center">
+    <div ref={ref} className="grid place-items-center">
       <div className="grid gap-10 grid-cols-1 lg:grid-cols-2">
         {projects.map((project, index) => {
           return (
             <motion.div
               variants={variants}
-              ref={ref}
               initial="hidden"
               custom={index}
               animate={controls}

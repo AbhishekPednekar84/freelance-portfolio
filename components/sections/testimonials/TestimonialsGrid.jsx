@@ -16,7 +16,7 @@ const variants = {
 const TestimonialsGrid = () => {
   return (
     <div className="grid place-items-center">
-      <div className="grid grid-cols-1 gap-16 mx-10 lg:mx-36">
+      <div className="grid grid-cols-1 gap-16 mx-5 md:mx-10 lg:mx-36">
         {testimonials.map((testimonial, index) => {
           return (
             <motion.div

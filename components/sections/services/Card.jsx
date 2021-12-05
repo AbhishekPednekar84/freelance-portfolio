@@ -20,19 +20,21 @@ const Card = () => {
         opacity: 1,
         scale: 1,
         transition: {
-          duration: 0.3,
-          delay: 0.2 * i,
+          duration: 1,
+          delay: 0.5 * i,
         },
       }));
     }
   }, [controls, inView]);
 
   return (
-    <div className="px-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-5 lg:gap-10 place-items-center">
+    <motion.div
+      ref={ref}
+      className="px-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-5 lg:gap-10 place-items-center"
+    >
       {services.map((service, index) => {
         return (
           <motion.div
-            ref={ref}
             key={index}
             custom={index}
             animate={controls}
@@ -50,7 +52,7 @@ const Card = () => {
           </motion.div>
         );
       })}
-    </div>
+    </motion.div>
   );
 };
 
