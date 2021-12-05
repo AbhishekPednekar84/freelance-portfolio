@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import Image from "next/image";
 import { heroImage, heroImageBlur } from "../../utils/images";
 import Swal from "sweetalert2";
@@ -54,13 +54,14 @@ const Hero = () => {
   };
 
   return (
-    <Fragment>
+    <div itemScope itemType="https://schema.org/Person">
       <div className="flex flex-col-reverse justify-center lg:flex-row lg:justify-evenly items-center h-screen p-7 lg:p-5">
         <div>
           <motion.h1
             variants={variants}
             initial="nameHidden"
             animate="nameVisible"
+            itemProp="name"
           >
             Abhishek <span className="text-blue-600">Pednekar</span>
           </motion.h1>
@@ -116,7 +117,7 @@ const Hero = () => {
           />
         </div>
       </div>
-    </Fragment>
+    </div>
   );
 };
 

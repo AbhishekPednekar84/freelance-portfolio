@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { Fragment } from "react";
 import CommonHeadLayout from "./CommonHeadLayout";
+import { heroImage } from "../../utils/images";
 
 const HomeHeadLayout = (props) => {
   return (
@@ -27,16 +28,16 @@ const HomeHeadLayout = (props) => {
             __html: `[
               {
  	              "@context": "https://schema.org",
-                "@type": "EducationalOrganization",
-                "name": "MES College of Arts, Commerce and Science",
+                "@type": "Person",
+                "givenName": "Abhishek Pednekar",
+                "jobTitle": "Freelance Web Developer",
+                "image": ${heroImage},
+                "url": "https://abhishekpednekar.com",
                 "address": {
-     	                  "@type": "PostalAddress",
-                        "streetAddress": "Vidyasagara Prof. M.P.L Sastry Road, 15th Cross, 10th Main, Malleshwaram",
-                        "addressRegion": "Bengaluru, KA",
-                        "postalCode": "560003",
-		                    "addressCountry": "IN",
-                        "email": "mesalumniassn@gmail.com",
-                        "telephone": "+91 9480797323"
+                  "@context": "https://schema.org",
+                  "@type": "PostalAddress",
+                  "addressRegion": "Bengaluru, KA",
+                  "addressCountry": "IN"
                 }
               }
             ]`,
