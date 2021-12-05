@@ -37,12 +37,18 @@ const Navbar = () => {
     } else {
       setStickyNav(false);
     }
+
+    const closeMenuOnScroll = window.scrollY > 600;
+
+    if (closeMenuOnScroll) {
+      setResponsiveNav(false);
+    }
   };
 
   return (
     <nav
       className={`w-full p-5 flex flex-wrap items-center justify-between bg-white relative lg:fixed top-0 left-0 z-50 ${
-        stickyNav ? "lg:shadow-xl opacity-95" : "shadow-none"
+        stickyNav ? "lg:shadow-xl lg:opacity-95" : "shadow-none"
       }`}
     >
       <motion.div

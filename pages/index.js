@@ -9,6 +9,7 @@ import Projects from "../components/sections/projects/Projects";
 import Testimonials from "../components/sections/testimonials/Testimonials";
 import ContactForm from "../components/sections/contact/ContactForm";
 import Footer from "../components/layout/Footer";
+import ScrollToTop from "../components/common/ScrollToTop";
 
 export default function Home() {
   return (
@@ -35,6 +36,7 @@ export default function Home() {
       </section>
 
       <Footer />
+      <ScrollToTop />
     </HomeHeadLayout>
   );
 }
