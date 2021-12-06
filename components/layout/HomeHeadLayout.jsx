@@ -31,7 +31,7 @@ const HomeHeadLayout = (props) => {
                 "@type": "Person",
                 "givenName": "Abhishek Pednekar",
                 "jobTitle": "Freelance Web Developer, Bengaluru",
-                "image": ${heroImage},
+                "image": ${JSON.stringify(heroImage)},
                 "url": "https://abhishekpednekar.com",
                 "address": {
                   "@context": "https://schema.org",

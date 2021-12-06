@@ -117,7 +117,7 @@ const Hero = () => {
         </div>
         <div className="mb-5 lg:mb-0 lg:ml-10">
           <Image
-            src={heroImage + "?tr=w-500"}
+            src={heroImage}
             alt="Abhishek Pednekar"
             height={500}
             width={500}
