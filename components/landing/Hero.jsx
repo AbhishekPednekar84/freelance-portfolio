@@ -90,7 +90,7 @@ const Hero = () => {
             by boosting your online presence
           </motion.p>
 
-          <div className="flex flex-col lg:flex-row justify-between pt-5 lg:pt-10">
+          <div className="flex flex-col lg:flex-row  pt-5 lg:pt-10">
             <motion.button
               variants={variants}
               initial="initialButton"

@@ -74,7 +74,7 @@ const Footer = () => {
         </div>
 
         <p className="flex justify-center items-center pt-10 text-lg">
-          Made with <span className="px-1">{heart}</span> in Bangalore
+          Made with <span className="px-1">{heart}</span> in Bengaluru
         </p>
       </div>
     </div>

@@ -2,7 +2,7 @@ const projects = [
   {
     name: "mesalumniassociation.com",
     description:
-      "The official website for The MES College Alumni Association. The alumni can register and stay updated about the various activities carried out by the association.",
+      "The official website for The MES College Alumni Association. The alumni can pay to register and stay updated about the various activities carried out by the association.",
     link: "https://mesalumniassociation.com",
     icon: (
       <svg
