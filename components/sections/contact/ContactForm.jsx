@@ -174,7 +174,7 @@ const ContactForm = () => {
                     <Field
                       id="message"
                       name="message"
-                      placeholder="Explain your requirement in detail"
+                      placeholder="Briefly explain your requirement"
                       as="textarea"
                       className={`border-2 p-2 w-80 md:w-112 h-36 rounded-md border-blue-500 placeholder-blue-400 focus-within:border-0 ${
                         props.touched.message && props.errors.message
