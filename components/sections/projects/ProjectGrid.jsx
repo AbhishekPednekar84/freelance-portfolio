@@ -43,7 +43,7 @@ const ProjectGrid = () => {
               animate={controls}
               className="shadow-lg hover:shadow-2xl rounded-xl"
             >
-              <div className="px-5 lg:px-8 flex flex-col lg:flex-row justify-center items-center bg-gray-200 py-10 lg:py-0 rounded-xl relative">
+              <div className="px-3 md:px-5 lg:px-8 flex flex-col lg:flex-row justify-center items-center bg-gray-200 py-10 lg:py-0 rounded-xl relative">
                 <div className="h-2/3 lg:h-128 lg:w-2/3 mb-10 lg:mb-0 flex items-center">
                   <img
                     src={project.image}

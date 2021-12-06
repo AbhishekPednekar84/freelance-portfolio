@@ -67,7 +67,7 @@ const Hero = () => {
 
   return (
     <div itemScope itemType="https://schema.org/Person">
-      <div className="flex flex-col-reverse justify-center lg:flex-row lg:justify-evenly items-center h-screen p-7 lg:p-5 -mb-12 md:mb-0">
+      <div className="flex flex-col-reverse justify-center lg:flex-row lg:justify-evenly items-center p-7 lg:p-5 -mb-12 md:mb-0 lg:mt-24">
         <div>
           <motion.h1
             variants={variants}
@@ -87,8 +87,7 @@ const Hero = () => {
             <span className="text-blue-500 border-b-2 border-blue-500 font-gilroySemiBold">
               next level
             </span>{" "}
-            by boosting your <br className="hidden lg:block" />
-            online presence
+            by boosting your online presence
           </motion.p>
 
           <div className="flex flex-col lg:flex-row justify-between pt-5 lg:pt-10">
