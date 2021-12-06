@@ -43,6 +43,7 @@ const Footer = () => {
         </h4>
 
         <div className="grid place-items-center pt-10">
+          <h5 className="pb-7">Let's Connect</h5>
           <div className="grid grid-cols-3 place-items-center gap-1 w-2/3 lg:w-1/4">
             <Link
               href="https://www.linkedin.com/in/abhishekpednekar84"

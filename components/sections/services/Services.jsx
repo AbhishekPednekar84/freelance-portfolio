@@ -25,7 +25,7 @@ const Services = () => {
         </h2>
         <Card />
       </div>
-      <div class="section-tilt-bottom">
+      <div class="section-tilt-bottom -mb-1">
         <svg
           data-name="Layer 1"
           xmlns="http://www.w3.org/2000/svg"

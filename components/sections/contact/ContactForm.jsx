@@ -20,6 +20,10 @@ const validationSchema = Yup.object({
 const variants = {
   hover: {
     backgroundColor: "#1E3A8A",
+    transition: {
+      duration: 0.5,
+      ease: "easeIn",
+    },
   },
   tap: {
     y: "2px",

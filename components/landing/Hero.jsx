@@ -10,12 +10,23 @@ const variants = {
   animateSecondary: { scale: 1, transition: { delay: 1.7, duration: 0.5 } },
   hoverCTA: {
     backgroundColor: "#1E3A8A",
+    transition: {
+      duration: 0.5,
+      ease: "easeIn",
+    },
   },
   tapCTA: {
     y: "2px",
     backgroundColor: "#3B82F6",
   },
-  hoverSecondary: { backgroundColor: "#3B82F6", color: "#FFFFFF" },
+  hoverSecondary: {
+    backgroundColor: "#3B82F6",
+    color: "#FFFFFF",
+    transition: {
+      duration: 0.5,
+      ease: "easeIn",
+    },
+  },
   tapSecondary: { y: "2px" },
 
   nameHidden: { opacity: 0 },
@@ -43,7 +54,8 @@ const Hero = () => {
     }).then((result) => {
       if (result.isConfirmed) {
         window.open(
-          "https://calendly.com/abhishek-p84/free-consult-with-abhishek-pednekar"
+          "https://calendly.com/abhishek-p84/free-consult-with-abhishek-pednekar",
+          "noopener,noreferrer"
         );
       }
     });
