@@ -48,7 +48,7 @@ const HomeHeadLayout = (props) => {
                 "description": "Looking for a freelance web developer in Bengaluru to boost your sales? I will take your awesome business to greater heights. Connect with me via the contact form on my website or schedule a free consultation.",
                 "genre": "Website for a freelance web developer from Bengaluru",
                 "keywords": "web development, web design, freelance, seo, digital marketing, google ads, facebook ads, bangalore, bengaluru"
-              },
+              }
             ]`,
           }}
         />
