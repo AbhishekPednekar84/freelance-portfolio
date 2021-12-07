@@ -24,7 +24,7 @@ const ProjectGrid = () => {
         opacity: 1,
         transition: {
           duration: 1,
-          delay: 0.5 * i,
+          delay: 1 * i,
         },
       }));
     }
