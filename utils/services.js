@@ -89,7 +89,8 @@ const services = [
         ></motion.path>
       </svg>
     ),
-    description: "Expanding your customer base to boost your sales",
+    description:
+      "Effective ad campaigns to expand your customer base and boost your sales",
   },
 ];
 
