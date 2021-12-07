@@ -67,8 +67,8 @@ const Hero = () => {
 
   return (
     <div itemScope itemType="https://schema.org/Person">
-      <div className="flex flex-col-reverse justify-center lg:flex-row lg:justify-evenly items-center p-7 lg:p-5 -mb-12 md:mb-0 lg:mt-24">
-        <div>
+      <div className="flex flex-col-reverse justify-center lg:flex-row lg:justify-evenly items-center p-7 lg:p-3 -mb-12 md:mb-0 lg:mt-24 mx-2 lg:mx-12">
+        <div className="lg:w-2/3">
           <motion.h1
             variants={variants}
             initial="nameHidden"
@@ -83,11 +83,12 @@ const Hero = () => {
             animate="headlineVisible"
             className="font-gilroy text-xl lg:text-2xl font-semibold pt-5 lg:pt-7"
           >
-            Take your business to the{" "}
-            <span className="text-blue-500 border-b-2 border-blue-500 font-gilroySemiBold">
-              next level
-            </span>{" "}
-            by boosting your online presence
+            I build{" "}
+            <span className="text-blue-500 pb-0.5 lg:pb-1 border-b-2 border-blue-500 font-gilroySemiBold">
+              websites
+            </span>
+            . If you are a business or an individual looking for an improved
+            online presence, I want to work with you!
           </motion.p>
 
           <div className="flex flex-col lg:flex-row  pt-5 lg:pt-10">

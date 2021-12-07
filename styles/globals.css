@@ -73,6 +73,19 @@
 
 html {
   scroll-behavior: smooth;
+  scrollbar-color: #93c5fd #dbeafe;
+}
+
+html::-webkit-scrollbar {
+  width: 1vw;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: #93c5fd;
+}
+
+html::-webkit-scrollbar-track {
+  background-color: #dbeafe;
 }
 
 ::selection {
