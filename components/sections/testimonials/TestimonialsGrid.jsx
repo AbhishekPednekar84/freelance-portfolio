@@ -7,10 +7,6 @@ const variants = {
     scale: 1,
     rotate: 0,
   },
-  hover: {
-    scale: 1.1,
-    rotate: -1,
-  },
 };
 
 const TestimonialsGrid = () => {
@@ -19,19 +15,16 @@ const TestimonialsGrid = () => {
       <div className="grid grid-cols-1 gap-16 mx-5 md:mx-10 lg:mx-36">
         {testimonials.map((testimonial, index) => {
           return (
-            <motion.div
+            <div
               key={index}
-              variants={variants}
-              initial="initial"
-              whileHover="hover"
-              className="p-5 relative bg-white shadow-lg"
+              className="p-5 relative bg-white shadow-lg max-w-[960px] hover:scale-105 lg:hover:skew-x-1 duration-200 ease-in-out"
             >
               <div className="top left"></div>
               {/* <div className="top right"></div> */}
               <div className="bottom right"></div>
               {/* <div className="bottom left"></div> */}
               <blockquote className="font-gilroySemiBold italic testimonial text-gray-500">
-                {testimonial.message}
+                <span className="break-normal">{testimonial.message}</span>
                 <cite className="font-gilroySemiBold">
                   <span className="text-black">{testimonial.name},</span>{" "}
                   <span className="text-blue-500">
@@ -39,7 +32,7 @@ const TestimonialsGrid = () => {
                   </span>
                 </cite>
               </blockquote>
-            </motion.div>
+            </div>
           );
         })}
       </div>
