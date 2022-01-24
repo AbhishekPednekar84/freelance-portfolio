@@ -66,7 +66,7 @@ const loadIcon = (
 const ContactForm = () => {
   const form = useRef();
   return (
-    <div className="pb-32 bg-contact-background w-full pt-14 md:pt-24">
+    <div className="pb-20 bg-contact-background w-full pt-14 md:pt-24">
       <h2 className="pb-12 lg:pb-20 text-center">
         <span className="pb-2 border-b-4 border-blue-500">Le</span>t's Get To
         Work

@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { linkedin, github, email } from "../../utils/images";
+import { logo } from "../../utils/images";
 
 const Footer = () => {
   const year = new Date().getFullYear();
@@ -23,7 +24,7 @@ const Footer = () => {
 
   return (
     <div className="relative">
-      <div class="footer-tilt">
+      {/* <div class="footer-tilt">
         <svg
           data-name="Layer 1"
           xmlns="http://www.w3.org/2000/svg"
@@ -35,9 +36,13 @@ const Footer = () => {
             class="shape-fill"
           ></path>
         </svg>
-      </div>
+      </div> */}
 
-      <div className="p-10 bg-blue-900 text-white font-gilroySemiBold">
+      <div className="p-10 bg-gradient-to-r from-gray-500 via-gray-300 to-gray-400 text-gray-900 font-gilroySemiBold">
+        <div className="text-center">
+          <Image src={logo} alt="Logo" width={250} height={100} />
+        </div>
+
         <h4 className="text-center tracking-wide">
           &copy; {year} - Abhishek Pednekar
         </h4>

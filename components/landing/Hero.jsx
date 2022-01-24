@@ -67,13 +67,14 @@ const Hero = () => {
 
   return (
     <div itemScope itemType="https://schema.org/Person">
-      <div className="flex flex-col-reverse justify-center lg:flex-row lg:justify-evenly items-center p-7 lg:p-3 -mb-12 md:mb-0 lg:mt-24 mx-2 lg:mx-12">
+      <div className="flex flex-col-reverse justify-center lg:flex-row lg:justify-evenly items-center p-3 -mb-12 md:mb-0 -mt-2 lg:mt-24 mx-2 lg:mx-12">
         <div className="lg:w-2/3">
           <motion.h1
             variants={variants}
             initial="nameHidden"
             animate="nameVisible"
             itemProp="name"
+            content="Abhishek"
           >
             Abhishek <span className="text-blue-600">Pednekar</span>
           </motion.h1>
@@ -81,7 +82,7 @@ const Hero = () => {
             variants={variants}
             initial="headlineHidden"
             animate="headlineVisible"
-            className="font-gilroy text-xl lg:text-2xl font-semibold pt-5 lg:pt-7"
+            className="font-gilroy text-lg md:text-xl lg:text-2xl font-semibold pt-3 lg:pt-7"
           >
             I build{" "}
             <span className="text-blue-500 pb-0.5 lg:pb-1 border-b-2 border-blue-500 font-gilroySemiBold">
