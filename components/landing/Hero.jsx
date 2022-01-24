@@ -45,7 +45,7 @@ const Hero = () => {
   const handleScheduling = () => {
     Swal.fire({
       title: "Hey there!",
-      html: "<div class='text-left'>If you want to take your business online or improve your online presence, I want to help. You can schedule a free (no obligations attached!) consultation with me, and we can have a friendly chat about what you can do to take your business to the next level.</div>",
+      html: "<div className='text-left'>If you want to take your business online or improve your online presence, I want to help. You can schedule a free (no obligations attached!) consultation with me, and we can have a friendly chat about what you can do to take your business to the next level.</div>",
       showCancelButton: true,
       confirmButtonColor: "#3B82F6",
       cancelButtonColor: "#DB2777",
@@ -121,8 +121,8 @@ const Hero = () => {
           <Image
             src={heroImage}
             alt="Abhishek Pednekar"
-            height={500}
-            width={500}
+            height={450}
+            width={450}
             placeholder="blur"
             blurDataURL={heroImageBlur}
             priority={true}

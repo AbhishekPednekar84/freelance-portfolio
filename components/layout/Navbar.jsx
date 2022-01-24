@@ -50,7 +50,7 @@ const Navbar = () => {
   const handleAbout = () => {
     Swal.fire({
       title: returnGreeting(),
-      html: "<div class='text-left'>I am Abhishek Pednekar, a web developer from Bengaluru. With over 15 years of experience in the industry, I have worn numerous hats across multiple domains.<br /><br /> A couple of years ago, I gave the corporate environment a break to start working as a full-time freelancer to rekindle my passion for learning and creating. Attention to detail is my greatest strength which bodes well when creating modern, aesthetically pleasing and customer-friendly websites.<br /><br /> I am always looking for new challenges. So hit me up if you are looking for a website or if you want to discuss kick-starting your online presence or have any questions about learning web development.</div>",
+      html: "<div className='text-left'>I am Abhishek Pednekar, a web developer from Bengaluru. With over 15 years of experience in the industry, I have worn numerous hats across multiple domains.<br /><br /> A couple of years ago, I gave the corporate environment a break to start working as a full-time freelancer to rekindle my passion for learning and creating. Attention to detail is my greatest strength which bodes well when creating modern, aesthetically pleasing and customer-friendly websites.<br /><br /> I am always looking for new challenges. So hit me up if you are looking for a website or if you want to discuss kick-starting your online presence or have any questions about learning web development.</div>",
       showConfirmButton: false,
       showCancelButton: true,
       cancelButtonColor: "#DB2777",
@@ -74,7 +74,7 @@ const Navbar = () => {
       </motion.div>
       {!responsiveNav ? (
         <svg
-          class="w-8 h-8 text-right cursor-pointer lg:hidden"
+          className="w-8 h-8 text-right cursor-pointer lg:hidden"
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"
@@ -90,7 +90,7 @@ const Navbar = () => {
         </svg>
       ) : (
         <svg
-          class="w-8 h-8 text-right cursor-pointer lg:hidden"
+          className="w-8 h-8 text-right cursor-pointer lg:hidden"
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"

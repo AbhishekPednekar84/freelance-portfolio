@@ -9,7 +9,7 @@ const Footer = () => {
 
   const heart = (
     <svg
-      class="w-5 h-5"
+      className="w-5 h-5"
       fill="red"
       viewBox="0 0 20 20"
       xmlns="http://www.w3.org/2000/svg"
@@ -24,7 +24,7 @@ const Footer = () => {
 
   return (
     <div className="relative">
-      {/* <div class="footer-tilt">
+      {/* <div className="footer-tilt">
         <svg
           data-name="Layer 1"
           xmlns="http://www.w3.org/2000/svg"
@@ -33,7 +33,7 @@ const Footer = () => {
         >
           <path
             d="M1200 120L0 16.48 0 0 1200 0 1200 120z"
-            class="shape-fill"
+            className="shape-fill"
           ></path>
         </svg>
       </div> */}
