@@ -60,7 +60,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`w-full p-5 flex flex-wrap items-center justify-between bg-white relative lg:fixed top-0 left-0 z-50 ${
+      className={`w-full p-5 flex items-center justify-between bg-white relative lg:fixed top-0 left-0 z-50 ${
         stickyNav ? "lg:shadow-xl lg:opacity-95" : "shadow-none"
       }`}
     >
@@ -82,9 +82,9 @@ const Navbar = () => {
           onClick={() => setResponsiveNav(!responsiveNav)}
         >
           <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
             d="M4 6h16M4 12h8m-8 6h16"
           ></path>
         </svg>
@@ -98,9 +98,9 @@ const Navbar = () => {
           onClick={() => setResponsiveNav(!responsiveNav)}
         >
           <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
             d="M6 18L18 6M6 6l12 12"
           ></path>
         </svg>
@@ -111,10 +111,10 @@ const Navbar = () => {
           responsiveNav
             ? "absolute top-full right-2 md:right-4 w-96 lg:right-0 lg:top-1/3 bg-white border-2 border-blue-200 rounded-lg shadow-lg lg:border-0 lg:shadow-none lg:pl-0 overflow-x-hidden"
             : "hidden"
-        } w-full lg:flex lg:items-center lg:w-auto`}
+        } w-full lg:flex lg:items-center lg:w-2/3`}
       >
         <ul className="lg:flex lg:justify-between font-gilroySemiBold text-lg px-6 lg:px-0 py-2 lg:py-0">
-          <li className="nav-link pt-3 lg:pt-0">
+          <li className="nav-link pt-3 lg:pt-0 pb-0">
             <Link href="#">
               <a
                 onClick={() => {
@@ -134,16 +134,16 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="nav-link">
-            <Link href="#contact">
+            <Link href="#projects">
               <a>
-                <span className="nav-link-hover-style">Hire Me</span>
+                <span className="nav-link-hover-style">Projects</span>
               </a>
             </Link>
           </li>
           <li className="nav-link">
-            <Link href="#projects">
+            <Link href="#contact">
               <a>
-                <span className="nav-link-hover-style">Projects</span>
+                <span className="nav-link-hover-style">Hire Me</span>
               </a>
             </Link>
           </li>
