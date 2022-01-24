@@ -26,8 +26,10 @@ const TestimonialsGrid = () => {
               <blockquote className="font-gilroySemiBold italic testimonial text-gray-500">
                 <span className="break-normal">{testimonial.message}</span>
                 <cite className="font-gilroySemiBold">
-                  <span className="text-black">{testimonial.name},</span>{" "}
-                  <span className="text-blue-500">
+                  <span className="text-black break-normal">
+                    {testimonial.name},
+                  </span>{" "}
+                  <span className="text-blue-500 break-normal">
                     {testimonial.designation}
                   </span>
                 </cite>

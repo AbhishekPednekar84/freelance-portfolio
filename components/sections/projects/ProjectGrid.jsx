@@ -41,9 +41,9 @@ const ProjectGrid = () => {
               initial="hidden"
               custom={index}
               animate={controls}
-              className="shadow-lg hover:shadow-2xl rounded-xl"
+              className="shadow-lg hover:shadow-xl rounded-xl"
             >
-              <div className="px-3 md:px-5 lg:px-8 flex flex-col lg:flex-row justify-center items-center bg-gray-200 py-10 lg:py-0 rounded-xl relative">
+              <div className="px-3 md:px-5 lg:px-8 flex flex-col lg:flex-row justify-center items-center bg-gradient-to-br from-gray-300 via-gray-100 to-gray-200 py-10 lg:py-0 rounded-xl relative">
                 <div className="h-2/3 lg:h-128 lg:w-2/3 mb-10 lg:mb-0 flex items-center">
                   <img
                     src={project.image}
@@ -58,7 +58,7 @@ const ProjectGrid = () => {
                     <span>{project.name}</span>
                   </h4>
 
-                  <p className="mt-7 bg-gray-100 p-3 font-gilroySemiBold flex flex-wrap text-lg border-l-4 border-blue-500">
+                  <p className="mt-7 bg-white p-3 font-gilroySemiBold flex flex-wrap text-lg border-l-4 border-blue-500">
                     {project.description}
                   </p>
 

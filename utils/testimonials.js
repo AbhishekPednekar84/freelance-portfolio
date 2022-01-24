@@ -3,7 +3,7 @@ const testimonials = [
     name: "Dr. Veena Nagaraj",
     designation: "Joint-Secretary, The MES College Alumni Association",
     message:
-      "MES Alumni Association website is a vibrant creation of the proud alumnus  Abhishek. He has taken a lot of interest in making it hassle-free and easy keeping in mind that the Institution is 65 years old and it has to be a simple process for every one. His attention on all details, patience in checking it innumerable times and answering all queries from the committee members is really appreciable. His timely response is a quality that I appreciate very much. With his eagerness to help his Alma mater, he has done a fabulous job by creating an apt website for the MES Alumni Association.",
+      "MES Alumni Association website is a vibrant creation of the proud alumnus  Abhishek. He has taken a lot of interest in making it hassle-free and easy keeping in mind that the Institution is 65 years old and it has to be a simple process for every one. His attention on all details, patience in checking it innumerable times and answering all queries from the committee members is really appreciable. His timely response is a quality that I appreciate very much. With his eagerness to help his Alma Mater, he has done a fabulous job by creating an apt website for the MES Alumni Association.",
   },
   {
     name: "Ms. Suparna Shankar",

@@ -3,6 +3,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { logo } from "../../utils/images";
 import { motion } from "framer-motion";
+import Swal from "sweetalert2";
+import returnGreeting from "../../utils/greeting";
 
 const variants = {
   hidden: {
@@ -43,6 +45,17 @@ const Navbar = () => {
     if (closeMenuOnScroll) {
       setResponsiveNav(false);
     }
+  };
+
+  const handleAbout = () => {
+    Swal.fire({
+      title: returnGreeting(),
+      html: "<div class='text-left'>I am Abhishek Pednekar, a web developer from Bengaluru. With over 15 years of experience in the industry, I have worn numerous hats across multiple domains.<br /><br /> A couple of years ago, I gave the corporate environment a break to start working as a full-time freelancer to rekindle my passion for learning and creating. Attention to detail is my greatest strength which bodes well when creating modern, aesthetically pleasing and customer-friendly websites.<br /><br /> I am always looking for new challenges. So hit me up if you are looking for a website or if you want to discuss kick-starting your online presence or have any questions about learning web development.</div>",
+      showConfirmButton: false,
+      showCancelButton: true,
+      cancelButtonColor: "#DB2777",
+      cancelButtonText: "CLOSE",
+    });
   };
 
   return (
@@ -101,6 +114,18 @@ const Navbar = () => {
         } w-full lg:flex lg:items-center lg:w-auto`}
       >
         <ul className="lg:flex lg:justify-between font-gilroySemiBold text-lg px-6 lg:px-0 py-2 lg:py-0">
+          <li className="nav-link pt-3 lg:pt-0">
+            <Link href="#">
+              <a
+                onClick={() => {
+                  handleAbout();
+                  setResponsiveNav(false);
+                }}
+              >
+                <span className="nav-link-hover-style ">Me</span>
+              </a>
+            </Link>
+          </li>
           <li className="nav-link pt-3 lg:pt-0">
             <Link href="#services">
               <a>
