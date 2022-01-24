@@ -38,7 +38,7 @@ const Footer = () => {
         </svg>
       </div> */}
 
-      <div className="p-10 bg-gradient-to-r from-gray-500 via-gray-300 to-gray-400 text-gray-900 font-gilroySemiBold">
+      <div className="p-10 bg-gradient-to-r from-gray-300 md:via-gray-300 to-gray-400 text-gray-900 font-gilroySemiBold">
         <div className="text-center">
           <Image src={logo} alt="Logo" width={250} height={100} />
         </div>
@@ -48,7 +48,10 @@ const Footer = () => {
         </h4>
 
         <div className="grid place-items-center pt-10">
-          <h5 className="pb-7">Let's Connect</h5>
+          <h5 className="pb-7">
+            <span className="pb-1 border-b-4 border-blue-500">Le</span>t's
+            Connect
+          </h5>
           <div className="grid grid-cols-3 place-items-center gap-1 w-2/3 lg:w-1/4">
             <Link
               href="https://www.linkedin.com/in/abhishekpednekar84"
