@@ -28,10 +28,10 @@
     src: url("/fonts/Gilroy-Heavy.ttf") format("truetype");
   }
   h1 {
-    @apply font-gilroyHeavy text-4xl lg:text-5xl tracking-wide;
+    @apply font-gilroyHeavy text-3xl lg:text-5xl tracking-wide;
   }
   h2 {
-    @apply font-gilroyBlack text-4xl tracking-wide;
+    @apply font-gilroyBlack text-3xl tracking-wide;
   }
   h3 {
     @apply font-gilroyBold text-2xl lg:text-3xl;
