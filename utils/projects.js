@@ -41,6 +41,29 @@ const projects = [
   },
 
   {
+    name: "rentorsale.apartments",
+    description:
+      "An easy way for home seekers to find flats for rent or sale in their dream apartment complex.",
+    link: "https://rentorsale.apartments",
+    icon: (
+      <svg
+        className="w-6 h-6"
+        fill="currentColor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          fillRule="evenodd"
+          d="M4 4a2 2 0 012-2h8a2 2 0 012 2v12a1 1 0 110 2h-3a1 1 0 01-1-1v-2a1 1 0 00-1-1H9a1 1 0 00-1 1v2a1 1 0 01-1 1H4a1 1 0 110-2V4zm3 1h2v2H7V5zm2 4H7v2h2V9zm2-4h2v2h-2V5zm2 4h-2v2h2V9z"
+          clipRule="evenodd"
+        ></path>
+      </svg>
+    ),
+    image:
+      "https://ik.imagekit.io/ykidmzssaww/Portfolio/Projects/ros_hacPRMrNO.jpg?",
+  },
+
+  {
     name: "supkenny.site",
     description: "The complete wedding site for a super happy couple!",
     link: "https://supkenny.site",
