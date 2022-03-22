@@ -17,7 +17,7 @@ const TestimonialsGrid = () => {
           return (
             <div
               key={index}
-              className="px-4 py-5 md:p-5 relative bg-white shadow-lg max-w-[960px] hover:scale-105 lg:hover:skew-x-1 duration-200 ease-in-out"
+              className="px-3 py-5 md:p-5 relative bg-white shadow-lg max-w-[960px] hover:scale-105 lg:hover:skew-x-1 duration-200 ease-in-out"
             >
               <div className="top left"></div>
               {/* <div className="top right"></div> */}
