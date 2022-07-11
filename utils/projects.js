@@ -90,7 +90,7 @@ const projects = [
   {
     name: "supkenny.site",
     description: "The complete wedding site for a super happy couple!",
-    link: "https://supkenny.site",
+    link: "https://supkenny.website",
     icon: (
       <svg
         className="w-6 h-6"
