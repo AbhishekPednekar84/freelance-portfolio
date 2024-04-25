@@ -23,6 +23,14 @@ class MyDocument extends Document {
             `,
             }}
           />
+
+          <script
+            id="Cookiebot"
+            src="https://consent.cookiebot.com/uc.js"
+            data-cbid="54681210-697c-4026-a947-6ae40cd2edac"
+            data-blockingmode="auto"
+            type="text/javascript"
+          ></script>
         </Head>
         <body>
           <Main />
